@@ -68,14 +68,14 @@ function AudioList() {
                       <i>
                         <FaHeadphones />
                       </i>
-                      95,490,102
+                      {song?.listeners}
                     </p>
 
                     <p className="duration">
                       <i>
                         <FaRegClock />
                       </i>
-                      03:04
+                      {song?.duration}
                     </p>
                     
                     <div
